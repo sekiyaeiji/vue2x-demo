@@ -2,6 +2,13 @@
 
 ## 準備
 
+### demo
+
+- demoはこちらで確認できます
+
+    [demo（github.io）](https://sekiyaeiji.github.io/vue2x-demo/dist/d01.html)
+
+
 ### vue.jsをダウンロードする、または読み込む
 
 - 以下のURLで最新バージョンのvue.min.jsにリダイレクトされる
