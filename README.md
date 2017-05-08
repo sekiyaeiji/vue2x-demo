@@ -1,13 +1,13 @@
 # vue2x-demo - Vue.js 2.x 入門
 
-## 準備
-
-### demo
+## demo
 
 - demoはこちらで確認できます
 
     [demo（github.io）](https://sekiyaeiji.github.io/vue2x-demo/dist/d01.html)
 
+
+## 準備
 
 ### vue.jsをダウンロードする、または読み込む
 
