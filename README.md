@@ -2,9 +2,15 @@
 
 ## demo
 
-- demoはこちらで確認できます
+- 動作が確認できるdemoはこちらです
 
     [demo（github.io）](https://sekiyaeiji.github.io/vue2x-demo/dist/d01.html)
+
+
+## 本入門のポイント
+
+- たったこれだけの記述でこんなに動いてくれる、を実感する
+- 難しいことは抜きにして、まずは動かす楽しさを体感する
 
 
 ## 準備
@@ -57,6 +63,10 @@
 - 埋込部分を要素によってラッピングできる場合は```v-text```ディレクティブも利用できる
 - レッスンの都合上ここではコンポーネント名を表すセレクタ名にあえて連番を使用する
 
+### demo
+
+[demo（github.io）](https://sekiyaeiji.github.io/vue2x-demo/dist/d01.html#link-comp01)
+
 ### JavaScript
 
 ```
@@ -87,6 +97,10 @@ new Vue({
 
 - ```v-model```ディレクティブを付与したHTMLの一部がVueオブジェクトと同期する
 - テキストを入力すると値がVueオブジェクトに渡る
+
+### demo
+
+[demo（github.io）](https://sekiyaeiji.github.io/vue2x-demo/dist/d01.html#link-comp02)
 
 ### JavaScript
 
@@ -119,6 +133,10 @@ new Vue({
 
 - ```v-on```ディレクティブでは```v-on:click=""```のようにイベントを設定できる
 - ```methods ```オプションに関数を格納する
+
+### demo
+
+[demo（github.io）](https://sekiyaeiji.github.io/vue2x-demo/dist/d01.html#link-comp03)
 
 ### JavaScript
 
@@ -158,6 +176,10 @@ new Vue({
 ## HTML要素を出力する ： v-html
 
 - 値に含まれるHTMLをレンダリングして出力する場合は```v-html```ディレクティブを利用する
+
+### demo
+
+[demo（github.io）](https://sekiyaeiji.github.io/vue2x-demo/dist/d01.html#link-comp04)
 
 ### JavaScript
 
@@ -200,6 +222,10 @@ new Vue({
 
 - Mustacheの記法```{{hoge}}```の値にJavaScript式を直接設定できる
 
+### demo
+
+[demo（github.io）](https://sekiyaeiji.github.io/vue2x-demo/dist/d01.html#link-comp05)
+
 ### JavaScript
 
 ```
@@ -230,6 +256,10 @@ new Vue({
 ## フィルタを経由して出力する
 
 - ```filters ```オプションにfilter系の処理を集約できる
+
+### demo
+
+[demo（github.io）](https://sekiyaeiji.github.io/vue2x-demo/dist/d01.html#link-comp06)
 
 ### JavaScript
 
@@ -269,6 +299,10 @@ new Vue({
 
 - 多彩な処理を扱い結果を得る場合には```computed```オプションを利用する
 
+### demo
+
+[demo（github.io）](https://sekiyaeiji.github.io/vue2x-demo/dist/d01.html#link-comp07)
+
 ### JavaScript
 
 ```
@@ -304,6 +338,10 @@ new Vue({
 ## computedのget、setを活用して入出力する
 
 - ```computed```オプションのget、setによりGetter、Setterの実装ができる
+
+### demo
+
+[demo（github.io）](https://sekiyaeiji.github.io/vue2x-demo/dist/d01.html#link-comp08)
 
 ### JavaScript
 
@@ -346,6 +384,10 @@ new Vue({
 
 - HTMLの各要素をバインドするには```v-bind```ディレクティブを利用する
 - ```v-bind```ディレクティブのclass属性によりclassを操作できる
+
+### demo
+
+[demo（github.io）](https://sekiyaeiji.github.io/vue2x-demo/dist/d01.html#link-comp09)
 
 ### JavaScript
 
@@ -394,6 +436,10 @@ new Vue({
 - ```v-model```ディレクティブはチェックボックスやラジオボタンのstate取得にも利用できる
 - インスタンス生成後に呼び出したい処理はcreatedフックに記載する
 
+### demo
+
+[demo（github.io）](https://sekiyaeiji.github.io/vue2x-demo/dist/d01.html#link-comp10)
+
 ### JavaScript
 
 ```
@@ -428,6 +474,10 @@ new Vue({
 ## v-forを利用する
 
 - ```v-for```ディレクティブによりループ処理が実装できる
+
+### demo
+
+[demo（github.io）](https://sekiyaeiji.github.io/vue2x-demo/dist/d01.html#link-comp11)
 
 ### JavaScript
 
@@ -473,6 +523,10 @@ new Vue({
 
 - ```Vue.component```APIによりコンポーネント定義を実装する
 - ``template```要素を配置してtemplate機能を利用することができる
+
+### demo
+
+[demo（github.io）](https://sekiyaeiji.github.io/vue2x-demo/dist/d01.html#link-comp12)
 
 ### JavaScript
 

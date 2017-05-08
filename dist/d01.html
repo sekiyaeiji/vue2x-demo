@@ -3,26 +3,27 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h2 class="title">Vue → HTML ： {{mustache構文}}、v-text</h2>
+<h2 id="link-comp01" class="title">Vue → HTML ： {{mustache構文}}、v-text</h2>
 <div class="component js-component01">
     <p>mustache構文の出力を表示します ： {{ text }}</p>
     <p>v-textの出力を表示します ： <span v-text="text"></span></p>
 </div>
 
 
-<h2 class="title">HTML → Vue ： v-model</h2>
+<h2 id="link-comp02" class="title">HTML → Vue ： v-model</h2>
 <div class="component js-component02">
     <p class="mb10"><input v-model="text" type="text" size="50" value="" placeholder="文字入力してみましょう！"></p>
     <p>ここに入力文字列を表示します ： {{ text }}</p>
 </div>
 
 
-<h2 class="title">イベント： v-on</h2>
+<h2 id="link-comp03" class="title">イベント： v-on</h2>
 <div class="component js-component03">
     <p class="mb10"><input v-model="input" type="text" size="50" value="" placeholder="文字入力してクリックしてみましょう！"></p>
     <p v-on:click="output" class="button mb10">入力文字列を反映</p>
@@ -30,7 +31,7 @@
 </div>
 
 
-<h2 class="title">HTML要素 ： v-html</h2>
+<h2 id="link-comp04" class="title">HTML要素 ： v-html</h2>
 <div class="component js-component04">
     <p class="mb10"><input v-model="input" type="text" size="50" value="" placeholder="文字入力してクリックしてみましょう！"></p>
     <p v-on:click="output" class="button mb10">入力文字列を反映</p>
@@ -39,42 +40,42 @@
 </div>
 
 
-<h2 class="title">JavaScript式</h2>
+<h2 id="link-comp05" class="title">JavaScript式</h2>
 <div class="component js-component05">
     <p class="mb10"><input v-model="number" type="number" value="" placeholder="数字を入力してみましょう！"></p>
     <p>ここに2倍の数字を表示します ： {{ number * 2 }}</p>
 </div>
 
 
-<h2 class="title">フィルタ</h2>
+<h2 id="link-comp06" class="title">フィルタ</h2>
 <div class="component js-component06">
     <p class="mb10"><input v-model="text" type="text" size="50" value="" placeholder="文字入力してみましょう！"></p>
     <p>ここに入力文字列の大文字を表示します ： {{ text | toUpperCase }}</p>
 </div>
 
 
-<h2 class="title">computed</h2>
+<h2 id="link-comp07" class="title">computed</h2>
 <div class="component js-component07">
     <p class="mb10"><input v-model="number" type="number" value="" placeholder="数字を入力してみましょう！"></p>
     <p>ここに3倍の数字を表示します ： {{ calc3Times }}</p>
 </div>
 
 
-<h2 class="title">computed ： get、set</h2>
+<h2 id="link-comp08" class="title">computed ： get、set</h2>
 <div class="component js-component08">
     <p class="mb10">税抜価格 ： <input v-model="origin" type="number" value="" placeholder="数字を入力してみましょう！"></p>
     <p class="mb10">税込価格 ： <input v-model="withTax" type="number" value="" placeholder="数字を入力してみましょう！"></p>
 </div>
 
 
-<h2 class="title">v-bind:class</h2>
+<h2 id="link-comp09" class="title">v-bind:class</h2>
 <div class="component js-component09">
     <p v-on:click="toggleClass" class="button mb10">classを切り替え</p>
     <p class="mb10">ターゲット → <span v-bind:class="{'isShow': isShow, 'isHide': isHide}">表示非表示が切り替わります</span></p>
 </div>
 
 
-<h2 class="title">v-if、v-else</h2>
+<h2 id="link-comp10" class="title">v-if、v-else</h2>
 <div class="component js-component10">
     <p class="mb10"><input type="checkbox" v-model="isChecked" id="cb001"><label for="cb001"> 税込み／税抜き</label></p>
     <p v-if="isChecked">税込み （例 ： 1,080円）</p>
@@ -82,7 +83,7 @@
 </div>
 
 
-<h2 class="title">v-for</h2>
+<h2 id="link-comp11" class="title">v-for</h2>
 <div class="component js-component11">
     <ul>
         <li v-for="(item, index) in data">
@@ -92,7 +93,7 @@
 </div>
 
 
-<h2 class="title">component</h2>
+<h2 id="link-comp12" class="title">component</h2>
 <template id="js-template-component12">
     <ul>
         <li v-for="(item, index) in data.split(',')">
