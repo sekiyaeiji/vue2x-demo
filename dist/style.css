@@ -179,10 +179,16 @@ img {
   border-radius: 3px;
   cursor: pointer;
 }
-input:placeholder-shown {color: #ccc;}
-input::-webkit-input-placeholder {color: #ccc;}
-input::-moz-placeholder {color: #ccc;}
-input:-ms-input-placeholder {color: #ccc;}
+input:placeholder-shown {color: #999;}
+input::-webkit-input-placeholder {color: #999;}
+input::-moz-placeholder {color: #aa999a;}
+input:-ms-input-placeholder {color: #999;}
+input[type=text],
+input[type=number] {
+  padding: 5px;
+  border: 1px solid #999;
+  border-radius: 2px;
+}
 
 .isShow {display: inline;}
 .isHide {display: none;}

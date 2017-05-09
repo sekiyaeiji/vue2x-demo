@@ -18,14 +18,14 @@
 
 <h2 id="link-comp02" class="title">HTML → Vue ： v-model</h2>
 <div class="component js-component02">
-    <p class="mb10"><input v-model="text" type="text" size="50" value="" placeholder="文字入力してみましょう！"></p>
+    <p class="mb10"><input v-model="text" type="text" size="30" value="" placeholder="文字入力してみましょう！"></p>
     <p>ここに入力文字列を表示します ： {{ text }}</p>
 </div>
 
 
 <h2 id="link-comp03" class="title">イベント： v-on</h2>
 <div class="component js-component03">
-    <p class="mb10"><input v-model="input" type="text" size="50" value="" placeholder="文字入力してクリックしてみましょう！"></p>
+    <p class="mb10"><input v-model="input" type="text" size="30" value="" placeholder="文字入力してクリックしてみましょう！"></p>
     <p v-on:click="output" class="button mb10">入力文字列を反映</p>
     <p>ここに入力文字列を表示します ： {{ text }}</p>
 </div>
@@ -33,7 +33,7 @@
 
 <h2 id="link-comp04" class="title">HTML要素 ： v-html</h2>
 <div class="component js-component04">
-    <p class="mb10"><input v-model="input" type="text" size="50" value="" placeholder="文字入力してクリックしてみましょう！"></p>
+    <p class="mb10"><input v-model="input" type="text" size="30" value="" placeholder="文字入力してクリックしてみましょう！"></p>
     <p v-on:click="output" class="button mb10">入力文字列を反映</p>
     <div>ここにHTMLコードを表示します ： {{ html }}</div>
     <div>ここにHTML出力を表示します ： <span v-html="html"></span></div>
@@ -49,7 +49,7 @@
 
 <h2 id="link-comp06" class="title">フィルタ</h2>
 <div class="component js-component06">
-    <p class="mb10"><input v-model="text" type="text" size="50" value="" placeholder="文字入力してみましょう！"></p>
+    <p class="mb10"><input v-model="text" type="text" size="30" value="" placeholder="文字入力してみましょう！"></p>
     <p>ここに入力文字列の大文字を表示します ： {{ text | toUpperCase }}</p>
 </div>
 
